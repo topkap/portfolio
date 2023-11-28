@@ -1,5 +1,5 @@
 var modals = document.getElementsByClassName("modal");
-var btns = document.getElementsByClassName("btn");
+var btns = document.getElementsByClassName("bttn");
 var spanes = document.getElementsByClassName("close");
 var funcs = [];
 
