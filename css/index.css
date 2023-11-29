@@ -51,9 +51,9 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url(/portfolio/img/waves-3473335_1920.jpg);
 }
 .opening .text {
+   z-index: 100;
    text-align: center;
    display: flex;
    flex-flow: column;
@@ -75,6 +75,23 @@
    font-size: 20px;
    line-height: 30px;
 }
+
+.bg-video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.5;
+}
+
+.bg-video__content {
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+}
+
 /* opening - E*/
 
 /* intro - S */
@@ -496,7 +513,6 @@ em {
       display: flex;
       align-items: center;
       justify-content: center;
-      background: url(/portfolio/img/waves-3473335_1920.jpg);
    }
    .opening .text {
       text-align: center;
@@ -966,7 +982,6 @@ em {
       display: flex;
       align-items: center;
       justify-content: center;
-      background: url(/portfolio/img/waves-3473335_1920.jpg);
    }
    .opening .text {
       text-align: center;
